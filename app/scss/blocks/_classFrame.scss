@@ -16,6 +16,21 @@
 	display: grid;
 }
 
+.gird-20g {
+	grid-template-columns: repeat(12, 1fr);
+	gap: 20px
+}
+
+.gird-30g {
+	grid-template-columns: repeat(12, 1fr);
+	gap: 30px
+}
+
+.grid-40g {
+	grid-template-columns: repeat(12, 1fr);
+	gap: 40px
+}
+
 //grid--------------------------------------------------------------------------------------------------
 // flex--------------------------------------------------------------------------------------------------
 .df {
@@ -35,7 +50,7 @@
 	align-items: center;
 }
 
-.al-s {
+.al-st {
 	align-items: stretch;
 }
 
@@ -68,9 +83,9 @@
 .mr-a{
 	margin:0 auto;
 }
-.pos-ab{
-	position: absolute;
-}
 .pos-rel{
 	position: relative;
+}
+.pos-ab{
+	position: absolute;
 }
