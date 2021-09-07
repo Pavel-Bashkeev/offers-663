@@ -1,0 +1,39 @@
+.composition{
+  background: radial-gradient(50% 50% at 50% 50%, #562141 0%, #3A1B2D 100%);
+  padding: 75px 0;
+  &__title{
+    margin-bottom: 65px;
+    color: $white;
+  }
+}
+.composition-item{
+  &:not(:last-child){
+    margin-bottom: 30px;
+  }
+  &__img{
+    filter: drop-shadow(0px 0px 50px #E744A7);
+    margin-bottom: 30px;
+    width: 161px;
+    height: 161px;
+  }
+  &__text{
+    color: $white;
+    font: 400 20px / 24px $font;
+    padding-bottom: 25px;
+    position: relative;
+    padding-right: 15px;
+    &::after{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 146px;
+      height: 1px;
+      background-color: $white;
+    }
+    &--accent{
+      font-weight: 900;
+    }
+  }
+}

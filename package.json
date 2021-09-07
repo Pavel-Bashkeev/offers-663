@@ -39,6 +39,5 @@
     "dependencies": {
         "reset-css": "^5.0.1",
         "smoothscroll-polyfill": "^0.4.4"
-    },
-    "type": "module"
+    }
 }

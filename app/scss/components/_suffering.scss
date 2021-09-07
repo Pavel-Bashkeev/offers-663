@@ -1,0 +1,51 @@
+.suffering {
+  background: radial-gradient(50% 50% at 50% 50%, #562141 0%, #3A1B2D 100%);
+  padding: 25px 0 80px;
+  margin-top: -1px;
+
+  &__title {
+    color: $white;
+    margin-bottom: 40px;
+  }
+
+  &-box {
+    margin-bottom: 45px;
+  }
+
+  &-text {
+    margin-bottom: 30px;
+
+    &__item {
+      font: 400 20px/24px $font;
+      color: $white;
+
+      &--accent {
+        font-weight: 700;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  &-sticker {
+    border: 5px solid #EE3912;
+    border-radius: 100px;
+    padding: 22px 25px;
+    &__box{
+      width: 98px;
+      height: 98px;
+      border-radius: 50%;
+      background-color: #fff;
+      flex-shrink: 0;
+      margin-right: 25px;
+
+    }
+    &__text{
+      max-width: 240px;
+      font: 700 20px / 24px $font;
+      color: $white;
+    }
+  }
+}

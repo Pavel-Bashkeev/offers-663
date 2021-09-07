@@ -1,0 +1,26 @@
+.reception{
+  padding: 80px 0px 100px;
+  &__title{
+    margin-bottom: 73px;
+  }
+  &-decor{
+    right:0;
+    top: 28%;
+  }
+  &-content{
+    padding: 36px 15px 35px;
+    background-color: #4A1E39;
+    color: $white;
+    &__item{
+      font: 700 20px / 24px $font;
+      max-width: 270px;
+      &-icon{
+        margin-right: 25px;
+        flex-shrink: 0;
+      }
+      &:not(:last-child){
+        margin-bottom: 25px;
+      }
+    }
+  }
+}

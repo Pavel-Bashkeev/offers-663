@@ -4,13 +4,10 @@ if(sliderCommentsInner){
   const comments = new Swiper(sliderComment, {
     spaceBetween: 10,
     autoHeight: true,
-    navigation: {
-      prevEl: '.swiper-btn-prev',
-      nextEl: '.swiper-btn-next',
-    },
     pagination: {
       el: '.swiper-pagination',
-      type: "fraction",
+      type: "bullets",
+      clickable: true
     },
     loop: true
   });
